@@ -6,6 +6,6 @@ spec:
  type: LoadBalancer
  ports:
   - targetPort: 80
-    ports: 80
+    port: 80
  selector:
   type: webserver
