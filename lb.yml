@@ -7,5 +7,5 @@ spec:
  ports:
   - targetPort: 80
     ports: 80
- selector"
+ selector:
   type: webserver
