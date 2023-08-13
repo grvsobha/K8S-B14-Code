@@ -9,4 +9,8 @@ spec:
     port: 80
     nodePort: 30009
  selector:
+<<<<<<< HEAD
   type: webserver
+=======
+  type: webserver
+>>>>>>> ccc3217751affa02ea0a34daf3426fb76bc9fb48
