@@ -5,7 +5,7 @@ metadata:
 spec:
  replicas: 3
  minReadySeconds: 10 
- startegy:
+ strategy:
   type: RollingUpdate
   rollingUpdate:
    maxUnavilable: 1
