@@ -1,0 +1,5 @@
+FROM tomcat
+MAINTAINER sobha
+ADD https://tomcat.apache.org/tomcat-9.0-doc/appdev/sample/sample.war
+CMD "catalina.sh" "run"
+EXPOSE 8080
